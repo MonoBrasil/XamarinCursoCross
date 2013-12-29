@@ -6,13 +6,13 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
+// Dia 1 - Exemplo 2 Relative Layout - http://docs.xamarin.com/guides/android/user_interface/relative_layout
+
 namespace Dia1Ex2
 {
 	[Activity (Label = "Dia1-Ex2", MainLauncher = true)]
 	public class MainActivity : Activity
 	{
-		int count = 1;
-
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);

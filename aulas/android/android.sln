@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia1-Ex4", "Dia1-Ex4\Dia1-E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia1-Ex5", "Dia1-Ex5\Dia1-Ex5.csproj", "{4D00B65C-4412-43AB-A4ED-A80EEF5B01E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia1-Ex6", "Dia1-Ex6\Dia1-Ex6.csproj", "{D87B36EB-DCB4-4DB6-A33D-B6AA60E36CFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{A10F60B5-B0BB-415C-A9E2-245514C315C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A10F60B5-B0BB-415C-A9E2-245514C315C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A10F60B5-B0BB-415C-A9E2-245514C315C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D87B36EB-DCB4-4DB6-A33D-B6AA60E36CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D87B36EB-DCB4-4DB6-A33D-B6AA60E36CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D87B36EB-DCB4-4DB6-A33D-B6AA60E36CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D87B36EB-DCB4-4DB6-A33D-B6AA60E36CFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Dia1-Ex1\Dia1-Ex1.csproj

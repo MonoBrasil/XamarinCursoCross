@@ -7,6 +7,8 @@ using Android.Widget;
 using Android.OS;
 using Android;
 
+// Dia 1 - Exemplo 5 Tabbed Layout - http://docs.xamarin.com/guides/android/user_interface/tab_layout/
+
 namespace Dia1Ex5
 {
 	[Activity (Label = "Dia1-Ex5", MainLauncher = true, Icon="@drawable/ic_launcher")]
@@ -15,6 +17,8 @@ namespace Dia1Ex5
 		protected override void OnCreate(Bundle bundle)
 		{
 			base.OnCreate(bundle);
+
+			// Coloca o layout "main" dos recursos em nossa view
 			SetContentView(Resource.Layout.Main);
 
 			CreateTab(typeof(WhatsOnActivity), "whats_on", "What's On", Resource.Drawable.ic_tab_whats_on);

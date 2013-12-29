@@ -6,13 +6,13 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
+// Dia 1 - Exemplo 1 Linear Layout - http://docs.xamarin.com/guides/android/user_interface/linear_layout/
+
 namespace Dia1Ex1
 {
 	[Activity (Label = "Dia1-Ex1", MainLauncher = true)]
 	public class MainActivity : Activity
 	{
-		int count = 1;
-
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
