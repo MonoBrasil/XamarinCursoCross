@@ -19,8 +19,11 @@ namespace Dia1Ex6
 		{
 			base.OnCreate(bundle);
 
-			items = new string[] { "Vegetais","Frutas","Flores","Legumes","Bulbos","Tubérculos" };
-			ListAdapter = new ArrayAdapter<String>(this, Android.Resource.Layout.SimpleListItem1, items);
+			items = new string[] { "Vegetais","Frutas","Flores","Legumes","Bulbos","Tubérculos",
+				"Carne bovina", "Aves", "Peixes", "Répteis", "Massas", "Sushis", "Sashimis"};
+			ListAdapter = new CustomAdapter(this, Android.Resource.Layout.SimpleListItem1, items);
+
+			//ListView.FastScrollEnabled = true;
 		}
 
 		protected override void OnListItemClick(ListView l, View v, int position, long id)
