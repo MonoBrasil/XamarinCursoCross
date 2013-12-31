@@ -23,7 +23,7 @@ namespace Dia1Ex6
 				"Carne bovina", "Aves", "Peixes", "Répteis", "Massas", "Sushis", "Sashimis"};
 			ListAdapter = new CustomAdapter(this, Android.Resource.Layout.SimpleListItem1, items);
 
-			//ListView.FastScrollEnabled = true;
+			ListView.FastScrollEnabled = true;
 		}
 
 		protected override void OnListItemClick(ListView l, View v, int position, long id)
@@ -31,6 +31,26 @@ namespace Dia1Ex6
 			var t = items[position];
 			Android.Widget.Toast.MakeText(this, t, Android.Widget.ToastLength.Short).Show();
 
+		}
+
+		public override bool OnCreateOptionsMenu (IMenu menu)
+		{
+			MenuInflater.Inflate(Resource.Menu.application_menu, menu);
+			return true;
+		}
+
+		public override bool OnOptionsItemSelected (IMenuItem item)
+		{
+			switch (item.ItemId) {
+			case Resource.Id.simple:
+				ListAdapter = new CustomAdapter(this, Android.Resource.Layout.SimpleListItem1, items);
+				return true;
+			case Resource.Id.two_lines:
+				ListAdapter = new CustomAdapter(this, Android.Resource.Layout.SimpleListItem2, items);
+				return true;
+			default:
+				return base.OnOptionsItemSelected (item);
+			}
 		}
 	}
 }

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/application_menu"
+          android:title="Tipos de Lista" >
+        <!-- "file" submenu -->
+        <menu>
+            <item android:id="@+id/simple"
+                  android:title="Simples" />
+            <item android:id="@+id/two_lines"
+                  android:title="Duas Linhas" />
+        </menu>
+    </item>
+</menu>

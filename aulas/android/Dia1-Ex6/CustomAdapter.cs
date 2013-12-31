@@ -76,8 +76,14 @@ namespace Dia1Ex6
 			if (view == null)        // ou então cria uma nova
 				view = context.LayoutInflater.Inflate (resource, null);
 
+			Random rnd = new Random ();
 			// ajusta as propriedades da view para refletir os dados da linha
 			view.FindViewById<TextView>(Android.Resource.Id.Text1).Text = items[position];
+			if (resource == Android.Resource.Layout.SimpleListItem2) 
+			{
+				// ajusta as propriedades da view para o subtítulo da primeira linha
+				view.FindViewById<TextView> (Android.Resource.Id.Text2).Text = String.Format ("{0} itens", rnd.Next (0, 100));
+			}
 
 			// retorna a view, populadpa com informações, para mostrar
 			return view;
