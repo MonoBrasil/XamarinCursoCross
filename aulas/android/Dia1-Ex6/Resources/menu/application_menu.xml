@@ -6,8 +6,18 @@
         <menu>
             <item android:id="@+id/simple"
                   android:title="Simples" />
+            <item android:id="@+id/with_heading"
+                  android:title="Com subtítulo" />
             <item android:id="@+id/two_lines"
                   android:title="Duas Linhas" />
+            <item android:id="@+id/activity"
+                  android:title="Atividades" />
+            <item android:id="@+id/checks"
+                  android:title="Checked" />
+            <item android:id="@+id/single_choice"
+                  android:title="Radio Button" />
+            <item android:id="@+id/multiple_choice"
+                  android:title="Checkbox" />
         </menu>
     </item>
 </menu>

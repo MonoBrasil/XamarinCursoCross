@@ -45,8 +45,26 @@ namespace Dia1Ex6
 			case Resource.Id.simple:
 				ListAdapter = new CustomAdapter(this, Android.Resource.Layout.SimpleListItem1, items);
 				return true;
-			case Resource.Id.two_lines:
+			case Resource.Id.with_heading:
 				ListAdapter = new CustomAdapter(this, Android.Resource.Layout.SimpleListItem2, items);
+				return true;
+			case Resource.Id.two_lines:
+				ListAdapter = new CustomAdapter(this, Android.Resource.Layout.TwoLineListItem, items);
+				return true;
+			case Resource.Id.activity:
+				ListAdapter = new CustomAdapter(this, Android.Resource.Layout.ActivityListItem, items);
+				return true;
+			case Resource.Id.checks:
+				ListAdapter = new CustomAdapter(this, Android.Resource.Layout.SimpleListItemChecked, items);
+				ListView.ChoiceMode = ChoiceMode.Multiple;
+				return true;
+			case Resource.Id.single_choice:
+				ListAdapter = new CustomAdapter(this, Android.Resource.Layout.SimpleListItemSingleChoice, items);
+				ListView.ChoiceMode = ChoiceMode.Single;
+				return true;			
+			case Resource.Id.multiple_choice:
+				ListAdapter = new CustomAdapter(this, Android.Resource.Layout.SimpleListItemMultipleChoice, items);
+				ListView.ChoiceMode = ChoiceMode.Multiple;
 				return true;
 			default:
 				return base.OnOptionsItemSelected (item);

@@ -79,10 +79,18 @@ namespace Dia1Ex6
 			Random rnd = new Random ();
 			// ajusta as propriedades da view para refletir os dados da linha
 			view.FindViewById<TextView>(Android.Resource.Id.Text1).Text = items[position];
-			if (resource == Android.Resource.Layout.SimpleListItem2) 
+
+			if (resource == Android.Resource.Layout.SimpleListItem2 ||
+				resource == Android.Resource.Layout.TwoLineListItem) 
 			{
 				// ajusta as propriedades da view para o subtítulo da primeira linha
 				view.FindViewById<TextView> (Android.Resource.Id.Text2).Text = String.Format ("{0} itens", rnd.Next (0, 100));
+			}
+
+			if (resource == Android.Resource.Layout.ActivityListItem)
+			{
+				// ajusta as propriedades da view para a imagem
+				view.FindViewById<ImageView>(Android.Resource.Id.Icon).SetImageResource(Resource.Drawable.Icon);
 			}
 
 			// retorna a view, populadpa com informações, para mostrar
