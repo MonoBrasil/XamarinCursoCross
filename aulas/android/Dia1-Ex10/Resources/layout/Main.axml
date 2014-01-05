@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button" />
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scroll_view">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <VideoView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/video_view" />
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progress_bar"
+                android:progress="0"
+                android:max="100"
+                android:secondaryProgress="0" />
+            <TextView
+                android:text="Bacon ipsum dolor sit amet pork loin meatloaf spare ribs prosciutto tongue tri-tip ground round rump. Prosciutto capicola meatloaf, meatball filet mignon sausage boudin pastrami ribeye venison rump shankle ham. Leberkas kevin jerky pancetta short loin chuck rump tongue. Meatball pancetta capicola ball tip pork loin turkey. Short loin pork belly tri-tip jowl. Pastrami turkey shank, boudin tenderloin jerky ham hock flank biltong brisket turducken cow pork chop ham strip steak. Biltong shankle ribeye corned beef ham pork belly.  Pastrami strip steak turkey ham hock meatball spare ribs tenderloin beef ribs shank brisket sausage chuck shankle pork loin flank. Beef bresaola tenderloin corned beef turkey doner beef ribs pastrami sirloin pork loin capicola pork chop pork. Jerky beef short loin, shoulder jowl filet mignon tongue pork chop pig t-bone tri-tip leberkas bresaola bacon. Pancetta tenderloin chuck leberkas ham hock bacon. Tenderloin chuck bresaola, fatback landjaeger leberkas doner. Swine brisket kielbasa pork loin leberkas pastrami. Tenderloin sirloin beef ribs tongue pork meatloaf, andouille chicken salami short ribs bacon doner pork belly.  Strip steak brisket beef cow short ribs. Landjaeger jowl pancetta jerky beef short loin ball tip pork chop shoulder doner meatloaf. Meatloaf andouille sausage shank bacon, pork loin short ribs chicken shankle. Prosciutto pig leberkas frankfurter. Pork chop corned beef prosciutto ham, doner shoulder ball tip beef ribs pork loin capicola chicken tenderloin jerky. Beef shoulder pig pastrami chuck bresaola.  Pig landjaeger andouille meatball cow leberkas spare ribs bacon strip steak boudin. Pork chop tri-tip tail strip steak, beef frankfurter tongue ham hock jowl. Frankfurter landjaeger kielbasa, pork belly bacon ball tip pancetta ham hock chuck pork chop cow sausage tail tongue. Doner corned beef beef ribs t-bone. Boudin tail tri-tip tongue meatloaf capicola meatball pancetta pork doner bresaola shankle shank strip steak. Ham short loin filet mignon prosciutto pork loin rump, flank beef. Flank tail prosciutto chicken andouille swine pork chop frankfurter pork loin.  Pig tri-tip ground round strip steak short ribs shankle. Shank jerky ribeye biltong capicola. Tongue salami swine, landjaeger fatback brisket capicola meatball bacon beef ribs. Venison t-bone pastrami meatball tenderloin turkey tri-tip pig spare ribs pancetta ham. Salami pastrami sausage short ribs fatback jowl kielbasa jerky tri-tip beef boudin capicola cow turkey. Turkey kielbasa jerky shankle, chicken tail pastrami meatball pig bresaola shoulder chuck.  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_view" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

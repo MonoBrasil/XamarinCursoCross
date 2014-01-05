@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia1-Ex8", "Dia1-Ex8\Dia1-E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia1-Ex9", "Dia1-Ex9\Dia1-Ex9.csproj", "{B359179D-B1F7-4D8D-BA18-67498775F4E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia1-Ex10", "Dia1-Ex10\Dia1-Ex10.csproj", "{619ED528-989F-4111-8CE5-669F81A66F38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{4D00B65C-4412-43AB-A4ED-A80EEF5B01E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D00B65C-4412-43AB-A4ED-A80EEF5B01E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D00B65C-4412-43AB-A4ED-A80EEF5B01E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{619ED528-989F-4111-8CE5-669F81A66F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{619ED528-989F-4111-8CE5-669F81A66F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{619ED528-989F-4111-8CE5-669F81A66F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{619ED528-989F-4111-8CE5-669F81A66F38}.Release|Any CPU.Build.0 = Release|Any CPU
 		{633F0FFA-654D-4D95-9128-31217BD73A58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{633F0FFA-654D-4D95-9128-31217BD73A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{633F0FFA-654D-4D95-9128-31217BD73A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
