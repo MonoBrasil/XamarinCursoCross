@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="faz_ligacao_direta">Faz Ligação Direta</string>
+	<string name="faz_ligacao_agenda">Faz Ligação pela Agenda</string>
+	<string name="envia_email">Envia Email</string>
+	<string name="envia_sms">Envia SMS</string>
+	<string name="app_name">Dia1-Ex12</string>
+</resources>

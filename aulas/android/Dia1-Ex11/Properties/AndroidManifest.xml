@@ -4,4 +4,5 @@
 	<application android:label="Dia1-Ex11">
 	</application>
 	<uses-permission android:name="android.permission.READ_CONTACTS" />
+	<uses-permission android:name="android.permission.CAMERA" />
 </manifest>
