@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/import_contacts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/import_contacts" />
+    <Button
+        android:id="@+id/import_picture"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/import_picture" />
+    <Button
+        android:text="@string/import_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/import_camera" />
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contacts"
+        android:visibility="invisible" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_view"
+        android:visibility="invisible" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="import_contacts">Importar agenda</string>
+	<string name="import_picture">Importar imagem da galeria</string>
+	<string name="import_camera">Importar imagem da câmera</string>
+	<string name="app_name">Dia1-Ex11</string>
+</resources>
