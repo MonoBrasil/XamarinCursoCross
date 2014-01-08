@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia1-Ex12", "Dia1-Ex12\Dia1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia1-Ex13", "Dia1-Ex13\Dia1-Ex13.csproj", "{2CE61CE7-2214-4459-BC96-FF738B6A5A96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia1-Ex14", "Dia1-Ex14\Dia1-Ex14.csproj", "{8015A5D2-7606-4BE9-A2D9-9957317D7FC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{6FAE1CE6-F9A6-4D60-B629-3798BEFB7B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FAE1CE6-F9A6-4D60-B629-3798BEFB7B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FAE1CE6-F9A6-4D60-B629-3798BEFB7B48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8015A5D2-7606-4BE9-A2D9-9957317D7FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8015A5D2-7606-4BE9-A2D9-9957317D7FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8015A5D2-7606-4BE9-A2D9-9957317D7FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8015A5D2-7606-4BE9-A2D9-9957317D7FC7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A10F60B5-B0BB-415C-A9E2-245514C315C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A10F60B5-B0BB-415C-A9E2-245514C315C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A10F60B5-B0BB-415C-A9E2-245514C315C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
