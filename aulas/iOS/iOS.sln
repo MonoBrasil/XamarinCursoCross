@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintCode", "PaintCode\Pain
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia1-Ex2", "Dia1-Ex2\Dia1-Ex2.csproj", "{EF917C16-0F0A-4922-A6F5-928309509196}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia1-Ex3", "Dia1-Ex3\Dia1-Ex3.csproj", "{E857C835-4479-49B3-A2C9-CD8C41B6E0DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -29,6 +31,18 @@ Global
 		{57D12429-7FD1-43A4-8E63-EE887E2D0746}.Release|iPhone.Build.0 = Release|iPhone
 		{57D12429-7FD1-43A4-8E63-EE887E2D0746}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{57D12429-7FD1-43A4-8E63-EE887E2D0746}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{E857C835-4479-49B3-A2C9-CD8C41B6E0DD}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{E857C835-4479-49B3-A2C9-CD8C41B6E0DD}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{E857C835-4479-49B3-A2C9-CD8C41B6E0DD}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{E857C835-4479-49B3-A2C9-CD8C41B6E0DD}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{E857C835-4479-49B3-A2C9-CD8C41B6E0DD}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{E857C835-4479-49B3-A2C9-CD8C41B6E0DD}.Debug|iPhone.Build.0 = Debug|iPhone
+		{E857C835-4479-49B3-A2C9-CD8C41B6E0DD}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{E857C835-4479-49B3-A2C9-CD8C41B6E0DD}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{E857C835-4479-49B3-A2C9-CD8C41B6E0DD}.Release|iPhone.ActiveCfg = Release|iPhone
+		{E857C835-4479-49B3-A2C9-CD8C41B6E0DD}.Release|iPhone.Build.0 = Release|iPhone
+		{E857C835-4479-49B3-A2C9-CD8C41B6E0DD}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{E857C835-4479-49B3-A2C9-CD8C41B6E0DD}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{EB91ED3E-1679-4591-AC4B-4E1D9D5DDA9D}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
 		{EB91ED3E-1679-4591-AC4B-4E1D9D5DDA9D}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
 		{EB91ED3E-1679-4591-AC4B-4E1D9D5DDA9D}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
