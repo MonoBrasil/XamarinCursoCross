@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s0="http://tempuri.org/" name="Service1" targetNamespace="http://tempuri.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="MakeLogin">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="1" name="login" type="xs:string" />
+            <xs:element minOccurs="0" maxOccurs="1" name="senha" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="MakeLoginResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" maxOccurs="1" name="MakeLoginResult" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="boolean" type="xs:boolean" />
+    </xs:schema>
+  </types>
+  <message name="MakeLoginSoapIn">
+    <part name="parameters" element="s0:MakeLogin" />
+  </message>
+  <message name="MakeLoginSoapOut">
+    <part name="parameters" element="s0:MakeLoginResponse" />
+  </message>
+  <message name="MakeLoginHttpGetIn">
+    <part name="login" type="s:string" />
+    <part name="senha" type="s:string" />
+  </message>
+  <message name="MakeLoginHttpGetOut">
+    <part name="Body" element="s0:boolean" />
+  </message>
+  <message name="MakeLoginHttpPostIn">
+    <part name="login" type="s:string" />
+    <part name="senha" type="s:string" />
+  </message>
+  <message name="MakeLoginHttpPostOut">
+    <part name="Body" element="s0:boolean" />
+  </message>
+  <portType name="Service1Soap">
+    <operation name="MakeLogin">
+      <input message="s0:MakeLoginSoapIn" />
+      <output message="s0:MakeLoginSoapOut" />
+    </operation>
+  </portType>
+  <portType name="Service1Soap12">
+    <operation name="MakeLogin">
+      <input message="s0:MakeLoginSoapIn" />
+      <output message="s0:MakeLoginSoapOut" />
+    </operation>
+  </portType>
+  <portType name="Service1HttpGet">
+    <operation name="MakeLogin">
+      <input message="s0:MakeLoginHttpGetIn" />
+      <output message="s0:MakeLoginHttpGetOut" />
+    </operation>
+  </portType>
+  <portType name="Service1HttpPost">
+    <operation name="MakeLogin">
+      <input message="s0:MakeLoginHttpPostIn" />
+      <output message="s0:MakeLoginHttpPostOut" />
+    </operation>
+  </portType>
+  <binding name="Service1Soap" type="s0:Service1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="MakeLogin">
+      <soap:operation soapAction="http://tempuri.org/MakeLogin" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="Service1Soap12" type="s0:Service1Soap12">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="MakeLogin">
+      <soap12:operation soapAction="http://tempuri.org/MakeLogin" style="document" />
+      <input>
+        <soap12:body use="literal" />
+      </input>
+      <output>
+        <soap12:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="Service1HttpGet" type="s0:Service1HttpGet">
+    <http:binding verb="GET" />
+    <operation name="MakeLogin">
+      <http:operation location="/MakeLogin" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="Service1HttpPost" type="s0:Service1HttpPost">
+    <http:binding verb="POST" />
+    <operation name="MakeLogin">
+      <http:operation location="/MakeLogin" />
+      <input>
+        <mime:content part="" type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Service1">
+    <port name="Service1Soap" binding="s0:Service1Soap">
+      <soap:address location="http://127.0.0.1:8080/Service1.asmx" />
+    </port>
+    <port name="Service1Soap12" binding="s0:Service1Soap12">
+      <soap12:address location="http://127.0.0.1:8080/Service1.asmx" />
+    </port>
+    <port name="Service1HttpGet" binding="s0:Service1HttpGet">
+      <http:address location="http://127.0.0.1:8080/Service1.asmx" />
+    </port>
+    <port name="Service1HttpPost" binding="s0:Service1HttpPost">
+      <http:address location="http://127.0.0.1:8080/Service1.asmx" />
+    </port>
+  </service>
+</definitions>
