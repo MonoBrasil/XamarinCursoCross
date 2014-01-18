@@ -12,6 +12,8 @@
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
+    <ProductVersion>12.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -52,7 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DBLib\DBLib.csproj">
-      <Project>{4a9d70e5-47f8-459a-9cec-4923d5971524}</Project>
+      <Project>{4A9D70E5-47F8-459A-9CEC-4923D5971524}</Project>
       <Name>DBLib</Name>
     </ProjectReference>
   </ItemGroup>
