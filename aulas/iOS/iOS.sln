@@ -83,6 +83,6 @@ Global
 		{EF917C16-0F0A-4922-A6F5-928309509196}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Dia1-Ex1\Dia1-Ex1.csproj
+		StartupItem = Dia1-Ex2\Dia1-Ex2.csproj
 	EndGlobalSection
 EndGlobal
