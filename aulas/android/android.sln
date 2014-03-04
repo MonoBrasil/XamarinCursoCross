@@ -105,6 +105,6 @@ Global
 		{DF2191C0-EE2E-4FF0-9438-733833B652C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Dia1-Ex1\Dia1-Ex1.csproj
+		StartupItem = Dia1-Ex15\Dia1-Ex15.csproj
 	EndGlobalSection
 EndGlobal
