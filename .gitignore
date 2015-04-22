@@ -112,3 +112,5 @@ aulas/android/Components/xamarin.mobile-0.7.1
 ._.DS_Store
 __MACOSX/
 *.apk
+*.userprefs
+aulas/iOS/Components

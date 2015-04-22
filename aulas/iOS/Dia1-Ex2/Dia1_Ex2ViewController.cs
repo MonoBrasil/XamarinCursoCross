@@ -66,6 +66,8 @@ namespace Dia1Ex2
 				throw new ArgumentNullException ("view");
 
 			if (active) {
+				view.Layer.RemoveAllAnimations ();
+
 				view.Layer.ShadowColor = UIColor.Blue.CGColor;
 				view.Layer.ShadowOpacity = 0.0f;
 				view.Layer.ShadowRadius = 6.0f;
@@ -120,6 +122,10 @@ namespace Dia1Ex2
 				TextGlow (modo == 2, button);
 				Shine (modo == 3, textField);
 			};
+
+			button.AddGestureRecognizer(new UISwipeGestureRecognizer(() => {
+				Shine (true, textField);
+			}));
 
 			textField.ShouldReturn += delegate(UITextField field) {
 				textView.BecomeFirstResponder();

@@ -29,6 +29,11 @@ namespace Dia1Ex2
 			
 			return true;
 		}
+
+		public override void WillEnterForeground (UIApplication application)
+		{
+			UIView.AnimationsEnabled = true;
+		}
 	}
 }
 

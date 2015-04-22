@@ -23,14 +23,18 @@ namespace Dia1Ex4
 			if (cell == null)
 				cell = new UITableViewCell (UITableViewCellStyle.Default, cellIdentifier);
 			cell.TextLabel.Text = tableItems[indexPath.Row];
+
 			return cell;
 		}
 
 		public override void RowSelected (UITableView tableView, NSIndexPath indexPath)
 		{   
 			new UIAlertView("Linha Selecionada", tableItems[indexPath.Row], null, "OK", null).Show();
+			var cell = tableView.CellAt (indexPath);
+			cell.Accessory = UITableViewCellAccessory.Checkmark;
 			tableView.DeselectRow (indexPath, true); // Convenção do iOS para remover a seleção
 		}
+			
 	}
 }
 
