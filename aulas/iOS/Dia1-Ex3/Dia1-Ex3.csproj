@@ -109,5 +109,5 @@
   <ItemGroup>
     <InterfaceDefinition Include="Dia1_Ex3ViewController.xib" />
   </ItemGroup>
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
 </Project>

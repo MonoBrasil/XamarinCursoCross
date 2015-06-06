@@ -1,0 +1,31 @@
+﻿```xml
+<Manifest>
+  <AgentType>iOSUnified_UIKit</AgentType>
+  <Resources />
+  <TimeoutSeconds>30</TimeoutSeconds>
+</Manifest>
+```
+```csharp
+// Sketch your next great idea!
+
+using UIKit;
+using Foundation;
+using CoreGraphics;
+using System.Drawing;
+
+var red = UIColor.Red;
+UIImage icon = UIImage.FromFile("/Icon.png");
+
+var label = new UILabel (new RectangleF (10, 30, 150, 32)) {
+    Text = "Olá!",
+    TextColor = red
+};
+
+label
+
+label.Text = "Branco";
+label.TextColor = UIColor.White;
+label
+
+```
+
