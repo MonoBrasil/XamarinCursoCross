@@ -42,18 +42,21 @@
                             <imageView contentMode="scaleToFill" id="21" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO">
                                 <rect key="frame" x="80" y="234" width="160" height="240"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="46" y="270" width="228" height="204"/>
+                                    <rect key="frame" x="98" y="61" width="162" height="126"/>
                                 </variation>
                             </imageView>
                             <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="36">
                                 <rect key="frame" x="53" y="48" width="79" height="27"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="30" y="619" width="51" height="31"/>
+                                </variation>
                             </switch>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="37" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Digite sua senha">
                                 <rect key="frame" x="191" y="30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="next" secureTextEntry="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="148" y="30" width="140" height="30"/>
+                                    <rect key="frame" x="45" y="374" width="140" height="30"/>
                                 </variation>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="38" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Digite um número" clearButtonMode="unlessEditing">
@@ -61,13 +64,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="go"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="148" y="72" width="145" height="30"/>
+                                    <rect key="frame" x="187" y="366" width="145" height="30"/>
                                 </variation>
                             </textField>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="100" id="40" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO">
                                 <rect key="frame" x="124" y="122" width="72" height="31"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="88" y="106" width="184" height="31"/>
+                                    <rect key="frame" x="98" y="26" width="184" height="31"/>
                                 </variation>
                             </slider>
                         </subviews>
