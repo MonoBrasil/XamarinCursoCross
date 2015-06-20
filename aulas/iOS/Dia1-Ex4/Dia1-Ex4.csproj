@@ -109,6 +109,7 @@
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Dia1_Ex4ViewController.xib" />
+    <InterfaceDefinition Include="Dia1_Ex4.storyboard" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
 </Project>
