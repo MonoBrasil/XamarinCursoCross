@@ -74,7 +74,7 @@ namespace Dia1Ex11
 				ContactsContract.Contacts.InterfaceConsts.PhotoId
 			};
 				
-			var loader = new CursorLoader(activity, uri, projection, null, null, null);
+			var loader = new Android.Content.CursorLoader(activity, uri, projection, null, null, null);
 			using (var cursor = (ICursor)loader.LoadInBackground ()) {
 				contactList = new List<Contact> ();
 				if (cursor.MoveToFirst ()) {
