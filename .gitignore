@@ -114,3 +114,5 @@ __MACOSX/
 *.apk
 *.userprefs
 aulas/iOS/Components
+aulas/android/.vs
+Resource.designer.cs
