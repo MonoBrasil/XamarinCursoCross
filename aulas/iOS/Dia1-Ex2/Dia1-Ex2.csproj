@@ -94,12 +94,6 @@
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
-    <Reference Include="Xamarin.QuickUI.Core.iOS">
-      <HintPath>..\Components\quickui-1.0\lib\ios\Xamarin.QuickUI.Core.iOS.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.QuickUI.Platform.iOS">
-      <HintPath>..\Components\quickui-1.0\lib\ios\Xamarin.QuickUI.Platform.iOS.dll</HintPath>
-    </Reference>
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
@@ -119,12 +113,6 @@
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Dia1_Ex2ViewController.xib" />
-  </ItemGroup>
-  <ItemGroup>
-    <XamarinComponentReference Include="quickui">
-      <Version>1.0</Version>
-      <Visible>False</Visible>
-    </XamarinComponentReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
