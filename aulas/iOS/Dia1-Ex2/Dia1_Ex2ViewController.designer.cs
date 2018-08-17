@@ -1,10 +1,10 @@
-// WARNING
+﻿// WARNING
 //
 // This file has been generated automatically by Xamarin Studio to store outlets and
 // actions made in the UI designer. If it is removed, they will be lost.
 // Manual changes to this file may not be handled correctly.
 //
-using MonoTouch.Foundation;
+using Foundation;
 using System.CodeDom.Compiler;
 
 namespace Dia1Ex2
@@ -13,16 +13,16 @@ namespace Dia1Ex2
 	partial class Dia1_Ex2ViewController
 	{
 		[Outlet]
-		MonoTouch.UIKit.UIButton button { get; set; }
+		UIKit.UIButton button { get; set; }
 
 		[Outlet]
-		MonoTouch.UIKit.UIImageView imageView { get; set; }
+		UIKit.UIImageView imageView { get; set; }
 
 		[Outlet]
-		MonoTouch.UIKit.UITextField textField { get; set; }
+		UIKit.UITextField textField { get; set; }
 
 		[Outlet]
-		MonoTouch.UIKit.UITextView textView { get; set; }
+		UIKit.UITextView textView { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{

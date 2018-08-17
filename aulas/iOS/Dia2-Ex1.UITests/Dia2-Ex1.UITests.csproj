@@ -4,7 +4,6 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{4317DEB0-9322-4C04-982A-8931FAE700D6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>Dia2Ex1.UITests</RootNamespace>

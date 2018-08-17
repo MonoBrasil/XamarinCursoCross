@@ -103,7 +103,7 @@ namespace Xamarin.Contacts
 			if (id.Trim() == String.Empty)
 				throw new ArgumentException ("Invalid ID", "id");
 
-			Android.Net.Uri curi; string column;
+            global::Android.Net.Uri curi; string column;
 			if (PreferContactAggregation)
 			{
 				curi = ContactsContract.Contacts.ContentUri;

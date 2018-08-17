@@ -1,8 +1,8 @@
 ﻿using System;
+using CoreGraphics;
+using Foundation;
+using UIKit;
 using System.Drawing;
-using MonoTouch.Foundation;
-using MonoTouch.UIKit;
-using MonoTouch.CoreGraphics;
 
 namespace PaintCode
 {

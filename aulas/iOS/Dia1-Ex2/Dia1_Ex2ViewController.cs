@@ -1,9 +1,9 @@
 ﻿using System;
+using CoreGraphics;
+using Foundation;
+using UIKit;
+using CoreAnimation;
 using System.Drawing;
-using MonoTouch.Foundation;
-using MonoTouch.UIKit;
-using MonoTouch.CoreGraphics;
-using MonoTouch.CoreAnimation;
 
 namespace Dia1Ex2
 {
@@ -102,7 +102,7 @@ namespace Dia1Ex2
 			// Execute quaisquer ajustes adicionais depois de carregar a view, tipicamente de uma nib.
 			button.SetTitle("Button " + modo, UIControlState.Normal);
 			button.SizeToFit ();
-			button.Center = new PointF(View.Center.X, button.Center.Y);
+			button.Center = new PointF((float)View.Center.X, (float)button.Center.Y);
 
 			button.TouchUpInside += (object sender, EventArgs e) => {
 				modo++;

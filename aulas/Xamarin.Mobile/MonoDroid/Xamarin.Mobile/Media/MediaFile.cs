@@ -36,9 +36,9 @@ namespace Xamarin.Media
 			if (action == null)
 				throw new ArgumentException ("Intent was not results from MediaPicker", "self");
 			
-			var uri = (Android.Net.Uri)self.GetParcelableExtra (MediaFile.ExtraName);		
+            var uri = (global::Android.Net.Uri)self.GetParcelableExtra (MediaFile.ExtraName);		
 			bool isPhoto = self.GetBooleanExtra ("isPhoto", false);			
-			var path = (Android.Net.Uri)self.GetParcelableExtra ("path");
+            var path = (global::Android.Net.Uri)self.GetParcelableExtra ("path");
 
 			return MediaPickerActivity.GetMediaFileAsync (context, 0, action, isPhoto, ref path, uri)
 				.ContinueWith (t => t.Result.ToTask()).Unwrap();

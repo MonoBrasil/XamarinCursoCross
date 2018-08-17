@@ -4,7 +4,6 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{A80FFBDE-C479-4116-84C3-A0F98A9A1319}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>AulaComponentes.UITests</RootNamespace>

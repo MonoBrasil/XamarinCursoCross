@@ -34,7 +34,7 @@ namespace Xamarin
 			Take = -1;
 		}
 
-		public Android.Net.Uri Table
+        public global::Android.Net.Uri Table
 		{
 			get;
 			private set;
@@ -223,14 +223,14 @@ namespace Xamarin
 		private class WhereEvaluator
 			: ExpressionVisitor
 		{
-			public WhereEvaluator (ITableFinder tableFinder, Android.Net.Uri existingTable)
+            public WhereEvaluator (ITableFinder tableFinder, global::Android.Net.Uri existingTable)
 			{
 				this.tableFinder = tableFinder;
 				if (existingTable != null)
 					this.table = new TableFindResult (existingTable, null);
 			}
 
-			public Android.Net.Uri Table
+            public global::Android.Net.Uri Table
 			{
 				get { return this.table.Table; }
 			}
@@ -552,7 +552,7 @@ namespace Xamarin
 				return false;
 			}
 
-			Android.Net.Uri existingTable = Table;
+            global::Android.Net.Uri existingTable = Table;
 
 			TableFindResult presult = null;
 

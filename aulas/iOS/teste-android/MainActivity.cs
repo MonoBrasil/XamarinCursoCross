@@ -8,6 +8,7 @@ using Android.Widget;
 using Android.OS;
 using Newtonsoft.Json;
 using System.IO;
+using Android.Graphics;
 
 namespace testeandroid
 {

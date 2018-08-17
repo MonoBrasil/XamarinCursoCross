@@ -1,6 +1,6 @@
 ﻿using System;
-using MonoTouch.UIKit;
-using MonoTouch.Foundation;
+using UIKit;
+using Foundation;
 
 namespace Dia1Ex4
 {
@@ -14,7 +14,7 @@ namespace Dia1Ex4
             tableItems = items;
         }
 
-        public override int RowsInSection(UITableView tableview, int section)
+        public override nint RowsInSection(UITableView tableview, nint section)
         {
             return tableItems.Length;
         }

@@ -1,4 +1,4 @@
-﻿using MonoTouch.Foundation;
+﻿using Foundation;
 using System.CodeDom.Compiler;
 
 namespace PageApp
@@ -8,7 +8,7 @@ namespace PageApp
 	{
 		[Outlet]
 		[GeneratedCodeAttribute ("iOS Designer", "1.0")]
-		MonoTouch.UIKit.UILabel dataLabel { get; set; }
+		UIKit.UILabel dataLabel { get; set; }
 
 		void ReleaseDesignerOutlets ()
 		{

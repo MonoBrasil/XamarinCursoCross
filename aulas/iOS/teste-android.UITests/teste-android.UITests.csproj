@@ -4,7 +4,6 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{AED2C0E8-9711-4880-9836-C084AC54E469}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>testeandroid.UITests</RootNamespace>

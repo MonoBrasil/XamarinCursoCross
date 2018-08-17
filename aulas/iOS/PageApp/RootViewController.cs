@@ -1,8 +1,8 @@
 ﻿using System;
-using System.Drawing;
+using CoreGraphics;
 
-using MonoTouch.Foundation;
-using MonoTouch.UIKit;
+using Foundation;
+using UIKit;
 
 namespace PageApp
 {
@@ -42,7 +42,7 @@ namespace PageApp
 
 			// Set the page view controller's bounds using an inset rect so that self's view is visible around the edges of the pages.
 			var pageViewRect = View.Bounds;
-			pageViewRect = new RectangleF (pageViewRect.X + 20, pageViewRect.Y + 20, pageViewRect.Width - 40, pageViewRect.Height - 40);
+            pageViewRect = new CGRect (pageViewRect.X + 20, pageViewRect.Y + 20, pageViewRect.Width - 40, pageViewRect.Height - 40);
 			PageViewController.View.Frame = pageViewRect;
 
 			PageViewController.DidMoveToParentViewController (this);

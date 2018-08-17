@@ -39,7 +39,7 @@ namespace Xamarin.Contacts
 
 		public IEnumerator<Contact> GetEnumerator()
 		{
-			Android.Net.Uri table = (this.rawContacts)
+            global::Android.Net.Uri table = (this.rawContacts)
 										? ContactsContract.RawContacts.ContentUri
 										: ContactsContract.Contacts.ContentUri;
 
